@@ -1,0 +1,19 @@
+{
+  "name": "@org/components2",
+  "version": "0.1.0",
+  "description": "Common shared utility methods",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "repository": "",
+  "author": "",
+  "license": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "start": "tsc -w --preserveWatchOutput"
+  }
+}

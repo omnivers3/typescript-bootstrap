@@ -1,0 +1,33 @@
+{
+  "name": "@org/stories",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Stories for typescript monorepo",
+  "license": "",
+  "scripts": {
+    "start": "start-storybook -p 8080",
+    "storybook": "start-storybook -p 8080",
+    "test": "./node_modules/.bin/chromatic test --app-code=\"\"",
+    "build": "build-storybook -o dist",
+    "clean": "rimraf tsconfig.tsbuildinfo lib dist"
+  },
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.8.7",
+    "@storybook/addon-info": "^5.3.14",
+    "@storybook/addons": "5.3.14",
+    "@storybook/core": "5.3.14",
+    "@storybook/react": "5.3.14",
+    "@types/storybook__addon-info": "^5.2.1",
+    "@types/storybook__react": "5.2.1",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "8.0.6",
+    "react-docgen-typescript-loader": "^3.7.0",
+    "storybook-chromatic": "3.5.2"
+  }
+}
